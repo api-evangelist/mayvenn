@@ -1,7 +1,25 @@
 aid: mayvenn
 name: Mayvenn
-description: Mayvenn is a company surfaced as a portfolio company of 500-global, a16z and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Mayvenn is an Oakland, California beauty-commerce company that sells quality virgin human hair
+  extensions, sew-in weave bundles, closures, frontals, and human hair wigs directly to consumers and
+  through a network of more than 100,000 hair stylists. Founded by Diishan Imira and backed by a16z and
+  500 Global, Mayvenn pairs its hair products with a stylist-driven distribution model and a 30-day
+  return policy, running its storefront on Shopify at shop.mayvenn.com. The company does not currently
+  publish a public first-party developer API; this profile captures its web identity, security posture,
+  and commercial link surface for the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://shop.mayvenn.com/cdn/shop/files/Mayvenn_Logo_-_Black_Background_White_Text_493e2dda-7ccb-448d-a9b5-1695a9efbb5d.jpg?v=1737741893
 url: https://raw.githubusercontent.com/api-evangelist/mayvenn/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Beauty
+- Hair Care
+- E-Commerce
+- Retail
+- Consumer Goods
+- Cosmetics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,20 @@ maintainers:
 common:
 - type: Website
   url: https://shop.mayvenn.com
+- type: Blog
+  url: https://shop.mayvenn.com/blogs/blog
+- type: Support
+  url: https://shop.mayvenn.com/pages/contact-us
+- type: TermsOfService
+  url: https://shop.mayvenn.com/pages/terms-of-service
+- type: PrivacyPolicy
+  url: https://shop.mayvenn.com/pages/privacy-policy
+- type: Login
+  url: https://shop.mayvenn.com/account/login
+- type: DomainSecurity
+  url: security/mayvenn-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
