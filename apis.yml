@@ -8,6 +8,17 @@ description: >-
   return policy, running its storefront on Shopify at shop.mayvenn.com. The company does not currently
   publish a public first-party developer API; this profile captures its web identity, security posture,
   and commercial link surface for the API Evangelist network.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
